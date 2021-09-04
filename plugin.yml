@@ -1,0 +1,84 @@
+main: ca.cactusmc.smp.CactusSMP
+name: CactusSMP
+author: CCMW
+version: 1.0
+api-version: 1.17
+description: Server plugin for CactusSMP.
+depends: [Votifier]
+commands:
+   team:
+      description: Teams management command.
+      usage: /team
+      aliases: [t]
+   tps:
+      description: View server TPS and Memory.
+      usage: /tps
+      aliases: [memory, lag]
+   help:
+      description: View available commands.
+      usage: /help
+      aliases: ['?', commands]
+   msg:
+      description: Message other players.
+      usage: /msg
+      aliases: [w, whisper, tell, m]
+   teamchat:
+      description: Enable team chat.
+      usage: /teamchat
+      aliases: [tc]
+   teammsg:
+      description: Send a message to your team.
+      usage: /teammsg
+      aliases: [tm]
+   plugins:
+      description: View available plugins.
+      usage: /plugins
+      aliases: [pl]
+   links:
+      description: View server links.
+      usage: /links
+   colour:
+      description: Set player colour.
+      usage: /colour
+      aliases: [color]
+   me:
+      description: Describe an action.
+      usage: /me
+   suicide:
+      description: Dies.
+      usage: /suicide
+      aliases: [kill]
+   list:
+      description: List of online players.
+      usage: /list
+      aliases: [online]
+   stats:
+      description: Show player statistics.
+      usage: /stats
+   invite:
+      description: Invite a player to server.
+      usage: /invite
+      aliases: [inv]
+   wl:
+      description: Whitelist players (admin)
+      usage: /wl
+      permission: no.no
+   rgcontribution:
+      description: admin
+      usage: /rgcontribution
+      permission: no.no
+   rgdonation:
+      description: admin
+      usage: /rgdonation
+      permission: no.no
+   rules:
+      description: Rules of the server.
+      usage: /rules
+   vote:
+      description: Vote.
+      usage: /vote
+   buy:
+      description: Donate.
+      usage: /buy
+      aliases: [donate]
+      
